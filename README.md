@@ -1,2 +1,2 @@
 # simply-webpage
-simply webpage using html, css, and a js.
+Simply webpage using html, css, and js.
