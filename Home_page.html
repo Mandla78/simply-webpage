@@ -8,7 +8,6 @@
   </head>
   <body>
     <!--Home Page-->
-
     <section id="Home_page">
       <div class="Home_page_logo">
         <img src="Logo_images/CV Logo.png" alt="Home page logo" />
@@ -44,38 +43,23 @@
     </div>
 
     <script>
-             
-           
              var Side_navigation = document.getElementById("Side_navigation");
              var menu_btn = document.getElementById("menu_btn");
              var Menu_images = document.getElementById("Menu_images");
 
              Side_navigation.style.right = "-250px";
-
              Menu_images.onclick = function () {
 
                                if (Side_navigation.style.right == "-250px") {
-                                     
                                  Side_navigation.style.right = "0";
-
                                  Menu_images.src = "Logo_images/Closing_Menu_logo.jpg";
-
                                 
                                } else {
-                                                   Side_navigation.style.right = "-250px";
-                                                   Menu_images.src = "Logo_images/Menu_Logo.jpg";
-
-
-                                
+                                              Side_navigation.style.right = "-250px";
+                                      Menu_images.src = "Logo_images/Menu_Logo.jpg";
                                }
-              
              }
-
-             
-            
-            
-
-
     </script>
   </body>
 </html>
+
