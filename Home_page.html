@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Website</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <!--Home Page-->
+
+    <section id="Home_page">
+      <div class="Home_page_logo">
+        <img src="Logo_images/CV Logo.png" alt="Home page logo" />
+      </div>
+
+      <div class="home_page_text">
+        <h1>Carriculum Vitae Website</h1>
+        <p>Your information is secure</p>
+      </div>
+
+      <div class="home_page_btn">
+        <a href="Login.html" target="_parent"><span></span>Login</a>
+        <a href="Sign_up.html" target="_parent"><span></span>Sign Up</a>
+      </div>
+    </section>
+
+    <div id="Side_navigation">
+      <nav>
+        <ul>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Personal Information</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact Form</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+
+    <div id="menu_btn">
+      <img src="Logo_images/Menu_Logo.jpg" alt="" id="Menu_images"
+      >
+    </div>
+
+    <script>
+             
+           
+             var Side_navigation = document.getElementById("Side_navigation");
+             var menu_btn = document.getElementById("menu_btn");
+             var Menu_images = document.getElementById("Menu_images");
+
+             Side_navigation.style.right = "-250px";
+
+             Menu_images.onclick = function () {
+
+                               if (Side_navigation.style.right == "-250px") {
+                                     
+                                 Side_navigation.style.right = "0";
+
+                                 Menu_images.src = "Logo_images/Closing_Menu_logo.jpg";
+
+                                
+                               } else {
+                                                   Side_navigation.style.right = "-250px";
+                                                   Menu_images.src = "Logo_images/Menu_Logo.jpg";
+
+
+                                
+                               }
+              
+             }
+
+             
+            
+            
+
+
+    </script>
+  </body>
+</html>

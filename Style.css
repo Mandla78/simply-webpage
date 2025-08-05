@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#Home_page {
+  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 153, 0.83)),
+    url(background_images/home_image.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.Home_page_logo img {
+  position: absolute;
+  width: 100px;
+  top: 4%;
+  left: 9%;
+}
+
+.home_page_text {
+  text-align: center;
+  padding-top: 200px;
+  color: #fff;
+}
+
+.home_page_text h1 {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.5px;
+  padding-bottom: 10px;
+}
+
+.home_page_text p {
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  letter-spacing: 0px;
+  font-weight: 100%;
+}
+
+.home_page_btn {
+  text-align: center;
+  margin: 70px auto;
+}
+
+.home_page_btn a {
+  width: 150px;
+  font-size: 17px;
+  display: inline-block;
+  border: 2px solid #fff;
+  margin: 0 10px;
+  padding: 12px 0;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 3px;
+
+  position: relative;
+  z-index: 1;
+  transition: color 0.5s;
+}
+
+.home_page_btn a span {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background: #fff;
+  transition: 1s;
+}
+
+.home_page_btn a:hover span {
+  width: 100%;
+}
+
+.home_page_btn a:hover {
+  color: #000;
+}
+
+#Side_navigation {
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  background: #fff;
+  top: 0;
+  right: 0;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  transition: 1s;
+}
+
+#Side_navigation nav ul li {
+  list-style: none;
+  margin: 25px 20px;
+}
+
+#Side_navigation nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#menu_btn{
+                 width: 50px;
+                 height: 50px;
+                 position: fixed;
+                 top: 4%;
+                 right: 30px;
+                 background:  rgb(79, 79, 83);
+                 border-radius: 3px;
+                 cursor: pointer;
+
+}
+
+#menu_btn img{
+                 width: 35px;
+                 height: 35px;
+                 position: fixed;
+                 margin-top: 8px;
+                 margin-left: 8px;
+}
